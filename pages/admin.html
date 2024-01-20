@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Autor-->
+    <meta name="author" content="Agustin Cortez">
+    <!--Escala-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/admin.css">
+    <!--IconoWeb-->
+    <link rel="icon" type="image/x-icon" href="../assets/logo_ngen.png">
+    <!--Titulo-->
+    <title>Proyecto Front | Admin |  Ngen Ambiental</title> 
+    <title></title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="../assets/logo_ngen.png" alt="Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./nuestraempresa.html">Nuestra Empresa</a></li>
+                <li><a href="./clientes.html">Clientes</a></li>
+                <a href="./formulario.html" class="btn"><button>Contacto</button></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="mid">
+                <h1>BIENVENIDO</h1>
+                <img src="../assets/welcome_icon_176921.png" alt="" class="foto_error">
+            </div>
+        </section>
+        <section class="tabla_formularios">
+            <h2>Tabla de formularios</h2>
+            <p id="cantidadFormularios">Cantidad de formularios:</p>
+            <div>
+                <button type="button" class="btn" id="mostrarDatos">Mostrar</button>
+            </div>
+            <div>
+                <button onclick="borrarLocalStorage()" type="button" class="btn">Borrar LocalStorage</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre y Apellido</th>
+                        <th>Email</th>
+                        <th>Mensaje</th>
+                    </tr>
+                </thead>
+                <tbody id="miTabla">
+                    <tr>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <footer class="pie_de_pag">
+            <!-- Pie de pagina -->
+                    <figure>
+                        <img src="../assets/logo_ngen.png" class="img_fot">
+                    </figure>
+                    <h4>
+                        Río de la Plata 1379, Las Condes, Santiago <br>
+                        Investigaciones y Desarrollo Experimental en el Campo de las Ciencias <br>
+                        fono: <a href="tel: +56 9 8461 4909">+56 9 8461 4909 </a> - /  <a href="tel: +56 9 8574 5486">+56 9 8574 5486</a><br>
+                        <a href="mailto:info@ngenambiental.cl">info@ngenambiental.cl</a> 
+                    </h4>
+                    <ul class="fot">
+                        <li><a href="https://www.instagram.com/ngen_ambiental/">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/ngenambientalltda/">Linkedin</a></li>
+                        <li><a href="../pages/login.html">Iniciar Sesion</a></li>
+                    </div>
+                </div>
+    </footer>
+    <script src="../js/admin.js"></script>
+</body>
+</html>
